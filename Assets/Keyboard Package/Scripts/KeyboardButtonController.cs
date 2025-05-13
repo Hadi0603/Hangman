@@ -6,14 +6,13 @@ using TMPro;
 
 public class KeyboardButtonController : MonoBehaviour
 {
-    [SerializeField] Image containerBorderImage;
-    [SerializeField] public Image containerFillImage;
-    [SerializeField] Image containerIcon;
-    [SerializeField] public TextMeshProUGUI containerText;
-    [SerializeField] TextMeshProUGUI containerActionText;
+    //[SerializeField] Image containerBorderImage;
+    //[SerializeField] public Image containerFillImage;
+    //[SerializeField] Image containerIcon;
+    [SerializeField] public Text containerText;
 
     [SerializeField] private QuizController quizController;
-    private void Start()
+    /*private void Start()
     {
         SetContainerBorderColor(ColorDataStore.GetKeyboardBorderColor());
         SetContainerFillColor(ColorDataStore.GetKeyboardFillColor());
@@ -28,7 +27,7 @@ public class KeyboardButtonController : MonoBehaviour
     {
         containerActionText.color = color;
         containerIcon.color = color;
-    }
+    }*/
 
     public void AddLetter()
     {
@@ -38,8 +37,8 @@ public class KeyboardButtonController : MonoBehaviour
         {
             button.interactable = false;
         }
-        containerFillImage.color = Color.gray;
-        containerText.color = Color.white; 
+        //containerFillImage.color = Color.gray;
+        //containerText.color = Color.white; 
     }
 
     public void DeleteLetter()
