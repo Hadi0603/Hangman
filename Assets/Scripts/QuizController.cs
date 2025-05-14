@@ -37,14 +37,14 @@ public class QuizController : MonoBehaviour
         foreach (Button btn in falseButtons)
         {
             btn.interactable = false;
-            btn.GetComponent<KeyboardButtonController>().containerFillImage.color = Color.gray;
-            btn.GetComponent<KeyboardButtonController>().containerText.color = Color.white;
-            btn.image.color = Color.gray;
-            TextMeshProUGUI tmpText = btn.GetComponentInChildren<TextMeshProUGUI>();
+            //btn.GetComponent<KeyboardButtonController>().containerFillImage.color = Color.gray;
+            //btn.GetComponent<KeyboardButtonController>().containerText.color = Color.white;
+            btn.image.color = Color.white;
+            /*TextMeshProUGUI tmpText = btn.GetComponentInChildren<TextMeshProUGUI>();
             if (tmpText != null)
             {
                 tmpText.color = Color.white;
-            }
+            }*/
         }
     }
 
