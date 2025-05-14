@@ -24,12 +24,12 @@ public class GameController : MonoBehaviour
 
     public void PauseBtn()
     {
-        //uiManager.OpenPauseMenu();
+        uiManager.OpenPauseMenu();
     }
 
     public void ResumeBtn()
     {
-        //uiManager.ClosePauseMenu();
+        uiManager.ClosePauseMenu();
     }
 
     public void MenuBtn()
