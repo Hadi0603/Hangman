@@ -1,0 +1,6 @@
+NAME : Mystery Word: Riddle Hangman
+PACKAGE NAME : com.airi.mysterywordriddlehangman
+COMPANY : MWRH
+KEYSTORE NAME/ ALIAS : mwrh
+PASSWORD : Airi@dev01
+BUNDLE VERSION 1, VERSION 1.0.
